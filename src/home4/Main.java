@@ -1,3 +1,4 @@
+package home4;
 public class Main{
     public static void main(String[] args){
         System.out.println("First problem");
@@ -7,7 +8,7 @@ public class Main{
         System.out.println("Third problem");
         System.out.println(fibo(10));
         System.out.println("Fourth problem");
-        System.out.println(acerman(1, 0));
+        System.out.println(acerman(0, 1));
     }
 
     public static int multipleRecursion(int n){ // multiple nums from 1 to n
